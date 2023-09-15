@@ -33,7 +33,7 @@ const GenrePage = () => {
   return (
     <div className="flex h-full">
       {/* Sidebar */}
-      <aside className="w-1/4 h-full bg-gray-900">
+      <aside className="w-1/4 bg-gray-900">
         <Sidebar onGenreSelect={handleGenreSelect}/>
       </aside>
 

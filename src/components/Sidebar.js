@@ -23,7 +23,7 @@ const Sidebar = ({ onGenreSelect }) => {
   };
 
   return (
-    <aside className="p-4 h-full bg-gray-900 text-white flex flex-col">
+    <aside className="p-4 bg-gray-900 text-white flex flex-col">
       <h2 className="text-2xl font-semibold mb-4">Genres</h2>
       <ul className="flex-1 overflow-y-auto">
         {genres.map((genre) => (
